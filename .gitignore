@@ -1,0 +1,57 @@
+# ============================================================
+# Library Management System — .gitignore
+#
+# IMPORTANT: .gitignore only prevents *untracked* files from
+# being added to Git. It does NOT protect secrets that are
+# already tracked or already in Git history. If a secret is
+# ever committed: remove it, rotate the credential, and clean
+# history if needed. See docs/git-and-commits.md.
+# ============================================================
+
+# --- IDE / local configuration (IntelliJ IDEA) ---
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# --- Local tooling artifacts (ZCode session data — not project content) ---
+.zcode/
+
+# --- Build outputs (IntelliJ default and common build tools) ---
+out/
+target/
+build/
+dist/
+
+# --- Secrets and credentials ---
+# Environment files
+*.env
+.env.*
+# Credential files (extensions kept explicit so that source files
+# such as Credentials.java can never be matched)
+credentials*.txt
+credentials*.json
+credentials*.xml
+credentials*.properties
+credentials*.yml
+credentials*.yaml
+# Keys and keystores
+*.pem
+*.key
+*.jks
+*.keystore
+
+# --- Backup artifacts ---
+# Specific generated-backup patterns ONLY.
+# NOTE: a blanket *.sql rule is deliberately absent — SQL source and
+# migration files must stay version-controlled (docs/git-and-commits.md).
+*.sql.gz
+*.backup.sql
+*.bak
+*.backup
+*.dump
+
+# --- Operating system junk ---
+Thumbs.db
+Desktop.ini
+.DS_Store

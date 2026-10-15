@@ -35,6 +35,11 @@ a date, so the project keeps its decision history.
 | D11 | Waiting-queue and reservation policy | Open | Business rule — must not be invented (R08) | Requires course specification |
 | D12 | Guest borrowing privileges | Open | Business rule — must not be invented (R08) | Requires course specification |
 | D13 | Loan durations and due-date rules | Open | Business rule — must not be invented (R08) | Requires course specification |
+| D14 | Concurrent borrowing/reservation limits per member | Open | Shapes loan-approval logic and member-facing views | Surfaced in Phase 01 (`docs/project/`); must not be invented (R08); related to D10, D13 |
+| D15 | Manager reports and exports (which summaries, if any) | Open | Decides whether reporting is part of the console version at all | Surfaced in Phase 01; until decided, no reports are built |
+| D16 | Backup ownership and storage location | Open | A backup nobody owns is not a backup — operational safety | Surfaced in Phase 01; interacts with SC8 (rehearsed restore) in `docs/project/success-criteria.md` |
+| D17 | Academic grading criteria, if applicable | Open | Aligns documentation and delivery with how the project is evaluated | Surfaced in Phase 01; affects process priorities, not application behavior |
+| D18 | Whether the application must automatically enforce working hours, holidays, and time-zone rules for circulation actions | Open | Decides whether time-rule logic is built at all; any values would also need course specification | The *operational practice* — employees process borrowing requests during working hours — is approved as a high-level requirement (2026-10-15); this decision covers only automatic enforcement by the software. Surfaced in Phase 01 |
 
 ## How to Resolve a Decision
 

@@ -1,10 +1,15 @@
 # Git and Commit Expectations
 
-## Current Repository State (checked 2026-10-14, Phase 00)
+## Repository State at Transition (checked 2026-10-17)
 
 - Branch `main`, tracking `origin/main` at
-  `https://github.com/Amir7009/Library-Management-System.git`
-- One commit (`a90a26d`) containing the initial `README.md`
+  `https://github.com/Amir7009/Library-Management-System.git`.
+- The local branch is two commits ahead of `origin/main` at transition time;
+  it contains the Phase 00 preparation and Phase 01 project-definition
+  documentation commits. See `git log` for the current exact history.
+- Phase 01 planning documents are present. Some are explicitly marked as
+  drafts for approval; do not treat all Phase 01 material as approved.
+- No application source code exists. Phase 02 has not been authorized.
 
 ## Commit Expectations
 

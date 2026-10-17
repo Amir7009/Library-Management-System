@@ -3,6 +3,10 @@
 This page describes how work proceeds in every phase. The numbered working
 rules referenced here are defined in [../AGENTS.md](../AGENTS.md).
 
+`AGENTS.md` is the repository-level instruction source for Codex and other
+contributors. Keep project requirements and decisions in the project
+documentation; do not create a second, conflicting instruction system.
+
 ## Phase Protocol
 
 Every phase follows the same six steps:

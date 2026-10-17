@@ -1,6 +1,7 @@
 # Project Overview — Library Management System
 
-> Status: Phase 00 — repository preparation. No application code exists yet.
+> Status: Phase 01 project-definition documentation is present. No application
+> code exists; Phase 02 requires a separate user prompt.
 
 ## Purpose
 
@@ -53,12 +54,14 @@ Neutral definitions only — behavior and policies are open decisions
 
 ## Delivery Phases
 
-1. **Phase 00 — Repository inspection and preparation** (this phase;
+1. **Phase 00 — Repository inspection and preparation** (completed;
    documentation only)
-2. **Console application** — first runnable version; all functionality through
-   a console user interface
-3. **REST API** — later phase
-4. **Web interface** — after the REST API
+2. **Phase 01 — Project definition** (planning documents present; approval
+   state varies by document)
+3. **Phase 02 — Console application** — planned first runnable version; all
+   functionality through a console user interface
+4. **REST API** — later phase
+5. **Web interface** — after the REST API
 
 ## Fixed Architectural Constraints
 

@@ -14,7 +14,7 @@
 *.ipr
 *.iws
 
-# --- Local tooling artifacts (ZCode session data — not project content) ---
+# --- Local agent session data (not project content) ---
 .zcode/
 
 # --- Build outputs (IntelliJ default and common build tools) ---

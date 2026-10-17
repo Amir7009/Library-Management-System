@@ -13,5 +13,6 @@ interface planned for later phases.
 - Development workflow: [docs/development-workflow.md](docs/development-workflow.md)
 - Open decisions: [docs/open-decisions.md](docs/open-decisions.md)
 
-Status: **Phase 00 — repository inspection and preparation** (documentation
-only; no application code yet).
+Status: **Phase 01 — project definition** (planning documentation is present;
+application code has not been authorized or created. Phase 02 is pending a
+separate user prompt).

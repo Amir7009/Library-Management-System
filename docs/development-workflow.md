@@ -3,6 +3,10 @@
 This page describes how work proceeds in every phase. The numbered working
 rules referenced here are defined in [../AGENTS.md](../AGENTS.md).
 
+Numbered prompt or workflow steps are separate from project delivery phases:
+for example, requirements-engineering Step 02 does not change project Phase 02,
+which is the planned console application.
+
 `AGENTS.md` is the repository-level instruction source for Codex and other
 contributors. Keep project requirements and decisions in the project
 documentation; do not create a second, conflicting instruction system.
@@ -47,5 +51,7 @@ When work needs a rule or choice that is not yet decided:
 
 - Agents read `AGENTS.md` first and follow the numbered rules (R01–R14).
 - Agents propose; the user decides: plans and scopes are approved by the user.
-- Each phase adds a Persian learning note under `learning/fa/phase-NN.md` (R10).
+- Each project phase adds a Persian learning note under
+  `learning/fa/phase-NN.md` (R10). A separately requested workflow-step note
+  may use a `phase-NN.md` filename without changing project phase numbering.
 - Documentation is updated in the same phase that changes how the project works.

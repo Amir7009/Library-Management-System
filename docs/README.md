@@ -6,8 +6,10 @@ engineering rules live in [../AGENTS.md](../AGENTS.md) — read that file first.
 ## Language Policy
 
 - **Technical documentation** (this folder): English (rule R09).
-- **Learning notes**: Persian, one file per phase under `learning/fa/`
-  (rule R10), named `phase-NN.md`.
+- **Learning notes**: Persian under `learning/fa/` (rule R10), normally one
+  per project phase and named `phase-NN.md`. The requested `phase-02.md` note
+  in this documentation set records requirements-workflow Step 02; that
+  filename does not change project Phase 02, the console application.
 
 ## File Map
 
@@ -22,8 +24,14 @@ engineering rules live in [../AGENTS.md](../AGENTS.md) — read that file first.
 | [project/scope.md](project/scope.md) | In-scope / out-of-scope functionality with approval labels |
 | [project/stakeholders.md](project/stakeholders.md) | Stakeholders and their interests |
 | [project/success-criteria.md](project/success-criteria.md) | Verifiable success criteria for the initial console version |
+| [requirements/functional-requirements.md](requirements/functional-requirements.md) | Testable functional requirements for requirements-workflow Step 02 |
+| [requirements/non-functional-requirements.md](requirements/non-functional-requirements.md) | Quality requirements and unapproved target questions |
+| [requirements/permissions-matrix.md](requirements/permissions-matrix.md) | Role/action grants and explicitly open permissions |
+| [requirements/business-rules.md](requirements/business-rules.md) | Approved and user-directed rules, with unresolved policies kept open |
+| [requirements/open-decisions.md](requirements/open-decisions.md) | Preserved D01–D18 plus Step 02 policy questions and unapproved recommendations |
 | [learning/fa/phase-00.md](learning/fa/phase-00.md) | Persian learning notes for Phase 00 |
 | [learning/fa/phase-01.md](learning/fa/phase-01.md) | Persian learning notes for Phase 01 |
+| [learning/fa/phase-02.md](learning/fa/phase-02.md) | Persian learning notes for requirements-workflow Step 02 (requested filename) |
 
 ## Conventions
 

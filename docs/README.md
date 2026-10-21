@@ -33,10 +33,16 @@ engineering rules live in [../AGENTS.md](../AGENTS.md) — read that file first.
 | [architecture/use-cases.md](architecture/use-cases.md) | Supported use cases and their unresolved policy boundaries |
 | [architecture/state-machines.md](architecture/state-machines.md) | Request and loan states, confirmed invalid transitions, and undefined transitions |
 | [architecture/domain-glossary.md](architecture/domain-glossary.md) | Domain terms and distinctions used by the Step 03 model |
+| [architecture/architecture-overview.md](architecture/architecture-overview.md) | Proposed conceptual architecture boundaries and dependency direction for Workflow Step 04 |
+| [decisions/ADR-0001-language-and-build.md](decisions/ADR-0001-language-and-build.md) | Pending proposal for language version, build, and testing tools |
+| [decisions/ADR-0002-database-and-persistence.md](decisions/ADR-0002-database-and-persistence.md) | Pending proposal for database, persistence, and schema migration |
+| [decisions/ADR-0003-application-architecture.md](decisions/ADR-0003-application-architecture.md) | Pending proposal for modular core boundaries and cross-cutting concerns |
+| [decisions/ADR-0004-future-web-architecture.md](decisions/ADR-0004-future-web-architecture.md) | Conceptual, pending proposal for later REST, security, and web choices |
 | [learning/fa/step-00.md](learning/fa/step-00.md) | Persian learning notes for project Phase 00 |
 | [learning/fa/step-01.md](learning/fa/step-01.md) | Persian learning notes for project Phase 01 |
 | [learning/fa/step-02.md](learning/fa/step-02.md) | Persian learning notes for requirements-workflow Step 02 |
 | [learning/fa/step-03.md](learning/fa/step-03.md) | Persian learning notes for domain-modeling workflow Step 03 |
+| [learning/fa/step-04.md](learning/fa/step-04.md) | Persian learning notes for architecture and technology decisions in workflow Step 04 |
 
 ## Conventions
 

@@ -66,6 +66,6 @@
 | `docs/project/scope.md` | داخل/بیرون محدوده با برچسب Approved/Assumption/Open، جدول مقادیر تصمیم‌نگرفته |
 | `docs/project/stakeholders.md` | ذی‌نفعان و علایق‌شان، تفکیک نقش سیستمی از ذی‌نفع پروژه‌ای |
 | `docs/project/success-criteria.md` | معیارهای موفقیت آزمون‌پذیر (SC1–SC12) و قواعد راستی‌آزمایی |
-| `docs/learning/fa/phase-01.md` | همین فایل |
+| `docs/learning/fa/step-01.md` | همین فایل |
 
 هیچ کد پیاده‌سازی نشده، هیچ کامیت یا پوشی انجام نشده است (R06) و هیچ قاعدهٔ کسب‌وکاری اختراع نشده است (R08).

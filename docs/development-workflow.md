@@ -51,7 +51,8 @@ When work needs a rule or choice that is not yet decided:
 
 - Agents read `AGENTS.md` first and follow the numbered rules (R01–R14).
 - Agents propose; the user decides: plans and scopes are approved by the user.
-- Each project phase adds a Persian learning note under
-  `learning/fa/phase-NN.md` (R10). A separately requested workflow-step note
-  may use a `phase-NN.md` filename without changing project phase numbering.
+- Each workflow step adds a Persian learning note under
+  `learning/fa/step-NN.md` (R10). Workflow-step numbering is separate from
+  project-phase numbering; the filename does not change the project's phase
+  mapping.
 - Documentation is updated in the same phase that changes how the project works.

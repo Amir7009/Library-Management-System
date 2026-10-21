@@ -73,6 +73,6 @@ git check-ignore -v مسیر    # آیا (و چرا) این فایل نادید�
 | `docs/development-workflow.md` | فرایند توسعه در هر فاز پروژه |
 | `docs/git-and-commits.md` | انتظارات گیت و کامیت، مرزهای `.gitignore` |
 | `docs/open-decisions.md` | تصمیم‌های باز، از جمله نسخهٔ هدف جاوا (D01) |
-| `docs/learning/fa/phase-00.md` | همین فایل |
+| `docs/learning/fa/step-00.md` | همین فایل |
 
 هیچ کامیت یا پوشی انجام نشده است (R06)؛ همهٔ تغییرات برای بازبینی شما در پوشهٔ کاری باقی مانده‌اند.

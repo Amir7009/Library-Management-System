@@ -21,9 +21,11 @@ The Library Management System will manage:
 
 ### Delivery phases
 
-1. **Console application** — the system begins as a console program.
-2. **REST API** — introduced in a later phase.
-3. **Web interface** — introduced after the REST API.
+- **Phase 00 — Repository inspection and preparation** (documentation only).
+- **Phase 01 — Project definition** (planning documentation).
+- **Phase 02 — Console application** — the first runnable version.
+- **Phase 03 — REST API** — introduced after the console application.
+- **Phase 04 — Web interface** — introduced after the REST API.
 
 ### Architectural constraints
 
@@ -72,8 +74,8 @@ them unambiguously.
 │   ├── git-and-commits.md        # commit expectations, secrets policy
 │   ├── open-decisions.md         # decisions awaiting clarification
 │   └── learning/
-│       └── fa/                   # Persian learning notes, one file per phase (R10)
-│           └── phase-00.md
+│       └── fa/                   # Persian learning notes for workflow steps (R10)
+│           └── step-00.md
 └── src/                          # application source — added in a later, authorized phase
 ```
 

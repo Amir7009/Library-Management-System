@@ -38,11 +38,16 @@ engineering rules live in [../AGENTS.md](../AGENTS.md) — read that file first.
 | [decisions/ADR-0002-database-and-persistence.md](decisions/ADR-0002-database-and-persistence.md) | Pending proposal for database, persistence, and schema migration |
 | [decisions/ADR-0003-application-architecture.md](decisions/ADR-0003-application-architecture.md) | Pending proposal for modular core boundaries and cross-cutting concerns |
 | [decisions/ADR-0004-future-web-architecture.md](decisions/ADR-0004-future-web-architecture.md) | Conceptual, pending proposal for later REST, security, and web choices |
+| [database/er-diagram.md](database/er-diagram.md) | Proposed logical entity-relationship view; confirmed and conditional associations are distinguished |
+| [database/schema-design.md](database/schema-design.md) | Proposed relational tables, columns, keys, nullability, and deletion behavior |
+| [database/constraints-and-indexes.md](database/constraints-and-indexes.md) | Proposed integrity constraints and workload-oriented indexes |
+| [database/transaction-design.md](database/transaction-design.md) | Proposed transactional workflows and concurrent physical-copy allocation strategy |
 | [learning/fa/step-00.md](learning/fa/step-00.md) | Persian learning notes for project Phase 00 |
 | [learning/fa/step-01.md](learning/fa/step-01.md) | Persian learning notes for project Phase 01 |
 | [learning/fa/step-02.md](learning/fa/step-02.md) | Persian learning notes for requirements-workflow Step 02 |
 | [learning/fa/step-03.md](learning/fa/step-03.md) | Persian learning notes for domain-modeling workflow Step 03 |
 | [learning/fa/step-04.md](learning/fa/step-04.md) | Persian learning notes for architecture and technology decisions in workflow Step 04 |
+| [learning/fa/step-05.md](learning/fa/step-05.md) | Persian learning notes for database schema design in workflow Step 05 |
 
 ## Conventions
 
